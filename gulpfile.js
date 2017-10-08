@@ -1,5 +1,5 @@
 /**
- * Created by M.R.  on 4/04/2017.
+ * Created by Morris R.  on 4/10/2017.
  */
 var browserify = require('browserify'),
     gulp = require('gulp'),
@@ -21,7 +21,7 @@ var entryPoint = './src/js/index.js',
     jsWatchPath = './src/**/*.js',
     htmlWatchPath = './**/*.html';
     cssWatchPath = './dist/css/*.css';
-/**/
+
 
 gulp.task('js', function () {
     return browserify(entryPoint, {debug: true, extensions: ['es6']})
