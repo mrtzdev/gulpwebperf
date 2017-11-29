@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Morris R.  on 4/10/2017.
  */
 var browserify = require('browserify'),
@@ -9,9 +9,9 @@ var browserify = require('browserify'),
     cleanCSS = require('gulp-clean-css');
     source = require('vinyl-source-stream'),
     buffer = require('vinyl-buffer'),
-    browserSync = require('browser-sync');
-    gutil = require('gulp-util');
-    critical = require('critical').stream;
+    browserSync = require('browser-sync'),
+    gutil = require('gulp-util'),
+    critical = require('critical').stream,
     imagemin = require('gulp-imagemin');
 
 /* pathConfig */
